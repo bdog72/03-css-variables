@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "scripts": {
+    "deploy": "surge ./public --domain 03-css-variables.bdog72.surge.sh",
+    "start": "browser-sync start --server 'public' --files 'public'"
+  }
+}

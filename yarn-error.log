@@ -1,0 +1,34 @@
+Arguments: 
+  /usr/local/Cellar/node/7.1.0/bin/node /usr/local/bin/yarn add browser-sync stylelint stylelint-config-standard surge --dev
+
+PATH: 
+  ./bin:/usr/local/bin:/usr/local/sbin:/Users/brianbycynski/.dotfiles/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  0.17.8
+
+Node version: 
+  7.1.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "deploy": "surge ./public --domain 03-css-variables.bdog72.surge.sh",
+      "start": "browser-sync start --server 'public' --files 'public'"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: read ETIMEDOUT
+      at exports._errnoException (util.js:1022:11)
+      at TLSWrap.onread (net.js:572:26)
